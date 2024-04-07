@@ -31,11 +31,19 @@ git clone [https://github.com/your-username/UnzipFileByNodeApi.git](https://gith
 ```
 
 Navigate to the project directory:
-```cd UnzipFileByNodeApi```
+```bash
+cd UnzipFileByNodeApi
+```
+
 Install dependencies:
-```npm install```
+```bash
+npm install
+```
+
 Run the server:
-```npm start```
+```bash
+npm start
+```
 
 The API server should now be running at the specified port.
 API Usage
@@ -43,4 +51,6 @@ Uploading a Zip File
 Send a POST request to the /upload endpoint with the zip file as a form-data field named file.
 
 Example using cURL:
-```curl -X POST -F "file=@/path/to/your/file.zip" http://localhost:3000/upload```
+```bash
+curl -X POST -F "file=@/path/to/your/file.zip" http://localhost:5005/upload
+```
